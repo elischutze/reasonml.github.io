@@ -96,7 +96,7 @@ Here's a JSX tag that shows most of the features.
 
 "Punning" refers to the syntax shorthand for when a label and a value are the same. For example, in JavaScript, instead of doing `return {name: name}`, you can do `return {name}`.
 
-Reason JSX supports punning. `<input checked />` is just a shorthand for `<input checked=checked />`. The formatter will help you format to the latter whenever possible. This is convenient in the cases where there are lots of props to pass down:
+Reason JSX supports punning. `<input checked />` is just a shorthand for `<input checked=checked />`. The formatter will help you format to the former whenever possible. This is convenient in the cases where there are lots of props to pass down:
 
 ```reason
 <MyComponent isLoading text onClick />
